@@ -1,0 +1,48 @@
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+
+}
+
+.text {
+  text-align: center;
+}
+
+.button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3478db;
+  color: white;
+  cursor: pointer;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+.itemButton {
+  background-color: #e53935;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
